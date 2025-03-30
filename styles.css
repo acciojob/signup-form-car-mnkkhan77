@@ -1,2 +1,66 @@
-
 /* Your CSS Code here. */
+/* Your CSS Code here. */
+body{
+	font-family: Arial,sans-serif;
+	background-color: #f2f5f9;
+	margin:0;
+	padding:0;
+}
+.container{
+	max-width: 500px;
+	margin: 50px auto;
+	background-color: #fff;
+	padding: 30px 40px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	border-radius: 12px;
+}
+h2{
+	text-align:center;
+	color:#333;
+	margin-bottom: 25px;
+}
+label{
+	display: block;
+	margin-bottom: 6px;
+	font-weight: bold;
+}
+input[type="text"]
+input[type="email"]
+input[type="number"]
+input[type="tel"]
+input[type="password"]
+input[type="date"]
+select{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 18px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 15px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+.radio-group,
+.checkbox-group {
+  margin-bottom: 18px;
+}
+.radio-group label,
+.checkbox-group label {
+  font-weight: normal;
+  margin-right: 15px;
+}
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
